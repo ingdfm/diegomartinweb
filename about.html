@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+        
+        <link rel="icon" href="img/icono-web-2.png" />
+        <link rel="stylesheet" href="css/about.css">
+        <script src="https://kit.fontawesome.com/dd1f15199d.js" crossorigin="anonymous"></script>
+        <title> Diego Martin Web </title>
+        
+        <style>
+            body {
+                background-image: url('img/portfolio.png');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                /* overflow: hidden; */
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="logo"> DIEGO MARTIN </div>
+                    <div class="language">
+                        <div class="es-en">
+                            <a href="SP/about.html"> <img src="img/spain-flag.png" width="50px"></a>
+                        </div>
+                    </div>
+    
+                <ul class="links">
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="portfolio.html"> Portfolio </a></li>
+                    <li><a href="contact.html"> Contact me </a></li>
+                </ul>
+    
+                <div class="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                
+                <div class="menu-down">
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="portfolio.html"> Portfolio </a></li>
+                    <li><a href="contact.html"> Contact me </a></li>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="hero">
+                <div class="hero-content">
+                    <div class="left">
+                        <h1> About me </h1> <br />
+                        <p>
+                            Throughout my life I have been fascinated with the world of technology, which led me to become an electronic engineer and a love of programming.
+                        </p>
+                        <p>
+                            I train in Frontend and Backend Web development. My soft skills allow me to work and grow as a team.
+                        </p>
+                        <p>
+                            I am constantly learning based on the demands and technological trends of the moment to contribute my knowledge to the growth of the projects I carry out.
+                        </p>
+                        <a href="contact.html" class="btn"> Let's talk </a>
+                    </div>
+                    <div class="right">
+                        <img src="img/yo.png" Class="photo" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="center full_width social_links">
+                <div class="row">
+                        <!-- <a href="#"> <img class="social" width=40 src="img/Twitter.png"> </a> -->
+                        <a href="#"> <img class="social" width=40 src="img/Facebook.png"> </a>
+                        <a href="#"> <img class="social" width=40 src="img/Instagram.png"> </a>
+                        <a href="#"> <img class="social" width=40 src="img/Linkedin.png"> </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="made-with">
+                <p> Made by Diego Martin. </p>
+                <p> ©️ 2024 All Rights Reserved. </p>
+            </div>
+        </footer>
+
+        <script>
+            const toggleBtn = document.querySelector('.menu-btn')
+            const toggleBtnIcon = document.querySelector('.menu-btn i')
+            const MenuDown = document.querySelector('.menu-down')
+    
+            toggleBtn.onclick = function () {
+                MenuDown.classList.toggle('open')
+                const isOPen = MenuDown.classList.contains('open')
+    
+                toggleBtnIcon.classList = isOPen
+                    ? 'fa-solid fa-xmark'
+                    : 'fa-solid fa-bars'
+            }
+        </script>
+    </body>
+</html>
