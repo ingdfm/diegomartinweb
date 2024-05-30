@@ -1,0 +1,347 @@
+html {
+    font-family: 'Rufina', sans-serif;
+    background-color: #f5f5f5;
+}
+
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    color: #2e54bd;
+}
+
+a {
+    transition: color 0.3s ease;
+    font-family: 'Rubik', sans-serif;
+    color: #2e54bd;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Links cambian de color cuando el mouse pasa por encima */
+a:hover {
+    color: #bd962e;
+}
+
+html body header {
+    /* Muy facil para trabajar, envia todo dentro del header hacia la derecha de la pantalla y formar un 'cuadro' superior */
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    box-shadow: 3px 0 5px #aaa;
+    padding: 15px 30px;
+    position: relative;
+    z-index: 2;
+}
+
+header .logo {
+    /* DONDE ESTA MI NOMBRE */
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+header .en {
+    color: #2e54bd;
+    padding: 10px;
+}
+
+header .es {
+    color: #2e54bd;
+    padding: 10px;
+}
+
+header .check {
+    position: relative;
+    width: 50px;
+}
+
+header .check:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background-color: #f5f5f5;
+    border-radius: 25px;
+    border: 2px solid #fff;
+}
+
+header .check:after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid #333;
+}
+
+header .check:checked:after {
+    left: 25px;
+    border: 2px solid #2e54bd;
+}
+
+header .check:checked:before {
+    background: #2e54bd;
+}
+
+html body nav ul {
+    /* Elimina los puntos en forma de lista */
+    list-style-type: none;
+    font-size: 16px;
+}
+
+html body nav ul li {
+    /* Hace que se coloquen uno seguido del otro */
+    display: inline-block;
+}
+
+html body nav ul li a {
+    /* Hace que se separen las palabras y amplia el rango para hacer click */
+    padding: 0 15px;
+}
+
+.hero {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 20px 50px;
+    justify-content: center;
+}
+
+.hero .hero-content {
+    width: 1200px;
+    display: flex;
+    /* Hace que se coloquen uno al lado del otro ( parao e imagen ) */
+    flex-direction: row;
+}
+
+.hero h1 {
+    font-family: 'Rufina', sans-serif;
+    /* font-size: 50px; */
+    font-size: 90px;
+    font-weight: 700;
+    /* Elimina espacios entre los H1 */
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.hero p {
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 50px;
+    font-size: 33px;
+}
+
+.left {
+    /* Centra el parrafo y la imagen */
+    width: 600px;
+    align-self: center;
+}
+html {
+    font-family: 'Rufina', sans-serif;
+}
+
+body {
+    background-color: #efefef;
+    margin: 0;
+    color: #2e54bd
+}
+
+a {
+    transition: color 0.3s ease;
+    font-family: 'Rubik', sans-serif;
+    color: #2e54bd;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Links cambian de color cuando el mouse pasa por encima */
+a:hover {
+    color: #bd962e;
+}
+
+html body header {
+    /* Muy facil para trabajar, envia todo dentro del header hacia la derecha de la pantalla y formar un 'cuadro' superior */
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 3px 0 5px #aaa;
+    padding: 15px 30px;
+    position: relative;
+    z-index: 2;
+}
+
+header .logo {
+    /* DONDE ESTA MI NOMBRE */
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+html body nav ul {
+    /* Elimina los puntos en forma de lista */
+    list-style-type: none;
+    font-size: 16px;
+}
+
+html body nav ul li {
+    /* Hace que se coloquen uno seguido del otro */
+    display: inline-block;
+}
+
+html body nav ul li a {
+    /* Hace que se separen las palabras y amplia el rango para hacer click */
+    padding: 0 15px;
+}
+
+.hero {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    background-color: #fff;
+    padding: 20px 50px;
+    justify-content: center;
+}
+
+.hero .hero-content {
+    width: 1200px;
+    display: flex;
+    /* Hace que se coloquen uno al lado del otro ( parao e imagen ) */
+    flex-direction: row;
+}
+
+.hero h1 {
+    font-family: 'Rufina', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    /* Elimina espacios entre los H1 */
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.hero p {
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 50px;
+}
+
+.left {
+    /* Centra el parrafo y la imagen */
+    width: 600px;
+    align-self: center;
+}
+
+.btn {
+    background-color: #f84F07;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+a.btn {
+    /* todas las palabras de los link deben tener un color X */
+    color: #fff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 1200px;
+}
+
+.row {
+    display: flexbox;
+    flex-direction: row;
+}
+
+.orange {
+    color: #f84F07;
+}
+
+.padded {
+    padding: 20px 30px;
+}
+
+.vert-pad {
+    padding: 20px 0px;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 1px 2px #ddd;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+
+/* 1200px / 3 = 400 */
+/* 400 / 40 = 360; 20 de margen * cada lado */
+.third {
+    width: 360px;
+    margin: 20px;
+}
+
+.contact-form input {
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+}
+
+.contact-form textarea {
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    height: 100px;
+    padding: 15px 10px;
+    resize: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: calc(100% - 20px);
+}
+
+.full-width {
+    width: 100%
+}
+
+.footer {
+    padding: 80px 0 0 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.social-links {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.made-with {
+    padding: 0 30px;
+    color: #777;
+}
+
+.white-bg {
+    background-color: #fff;
+}
