@@ -46,6 +46,8 @@ header {
     font-size: 2rem;
     font-weight: bold;
     display: flex;
+    /* padding: 0rem 1rem 0rem 1rem; */
+    padding-right: 1rem;
 }
 
 .navbar .links {
@@ -107,10 +109,17 @@ header {
 
 .left {
     align-self: center;
+    padding: 20px 121px 25px 10px;
+}
+
+.left-es {
+    align-self: center;
+    padding: 20px 16.5px 25px 10px;
 }
 
 .right .web {
     width: 600px;
+    padding: 10px 10px 25px 70px;
 }
 
 .hero h1 {
@@ -209,6 +218,10 @@ footer {
         font-size: 1.9rem;
     }
 
+    .hero {
+        padding: 0px;
+    }
+
     .hero .hero-content {
         display: flex;
         flex-direction: column;
@@ -217,7 +230,8 @@ footer {
     }
 
     .left {
-        padding: 60px;
+        /* padding: 60px; */
+        padding: 50px;
         align-self: center;
     }
 
@@ -226,7 +240,8 @@ footer {
     }
 
     .right .web {
-        width: 500px;
+        width: 400px;
+        padding: 0px;
     }
 }
 
