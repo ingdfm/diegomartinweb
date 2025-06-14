@@ -131,6 +131,7 @@ header {
 
 .right .photo {
     width: 550px;
+    border-radius: 50px;
 }
 
 .btn {
@@ -225,7 +226,8 @@ footer {
     }
 
     .right .photo {
-        width: 450px;
+        width: 400px;
+        border-radius: 650px;
     }
 }
 
