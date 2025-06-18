@@ -242,3 +242,10 @@ footer {
         padding: 0px;
     }
 }
+
+@media(max-width:990px) {
+    .menu-down {
+        left: 2rem;
+        width: unset;
+    }
+}
