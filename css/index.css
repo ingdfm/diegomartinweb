@@ -232,6 +232,12 @@ footer {
         padding: 50px;
         align-self: center;
     }
+    
+    .left-es {
+        padding: 60px;
+        /* padding: 50px; */
+        align-self: center;
+    }
 
     .hero h1 {
         font-size: 60px;
