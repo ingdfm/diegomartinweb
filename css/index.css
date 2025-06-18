@@ -26,11 +26,11 @@ a:hover {
 
 /*  HEADER */
 header {
-    /* position: relative; */
-    /* padding: 0 2rem; */
+    position: relative;
+    padding: 0 2rem;
     padding: 1.3em;
-    /* box-shadow: 3px 0 5px #aaa; */
-    box-shadow: 3px 0.5px #aaa;
+    box-shadow: 3px 0 5px #aaa;
+    /* box-shadow: 3px 0.5px #aaa; */
 }
 
 .navbar {
