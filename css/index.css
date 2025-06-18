@@ -27,9 +27,10 @@ a:hover {
 /*  HEADER */
 header {
     /* position: relative; */
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     padding: 1.3em;
-    box-shadow: 3px 0 5px #aaa;
+    /* box-shadow: 3px 0 5px #aaa; */
+    box-shadow: 3px 0.5px #aaa;
 }
 
 .navbar {
@@ -190,7 +191,7 @@ footer {
 }
 
 .made-with {
-    padding: 30px 30px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -249,7 +250,7 @@ footer {
     }
 }
 
-@media(max-width: 990px) {
+@media(max-width: 992px) {
     .menu-down {
         left: 2rem;
         width: unset;
