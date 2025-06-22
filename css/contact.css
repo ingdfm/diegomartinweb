@@ -232,6 +232,8 @@ footer {
 
     .menu-down {
         display: block;
+        left: 2rem;
+        width: unset;
     }
 
     .logo {
@@ -265,13 +267,5 @@ footer {
         width: 93%;
         padding: 8px 0 8px 0;
         transform: translate(-50%, );
-    }
-}
-
-@media (max-width: 990px) {
-
-    .menu-down {
-        left: 2rem;
-        width: unset;
     }
 }
