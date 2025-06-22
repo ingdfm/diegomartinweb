@@ -231,6 +231,8 @@ footer {
 
     .menu-down {
         display: block;
+        left: 2rem;
+        width: unset;
     }
 
     .logo {
@@ -240,13 +242,5 @@ footer {
     .container:hover .card {
         filter: none;
         opacity: none;
-    }
-}
-
-@media (max-width: 990px) {
-
-    .menu-down {
-        left: 2rem;
-        width: unset;
     }
 }
