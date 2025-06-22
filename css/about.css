@@ -201,6 +201,8 @@ footer {
 
     .menu-down {
         display: block;
+        left: 2rem;
+        width: unset;
     }
 
     .logo {
@@ -230,13 +232,5 @@ footer {
         width: 350px;
         /* border-radius: 650px; */
         border-radius: 850px;
-    }
-}
-
-@media (max-width: 990px) {
-
-    .menu-down {
-        left: 2rem;
-        width: unset;
     }
 }
