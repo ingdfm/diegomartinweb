@@ -211,6 +211,8 @@ footer {
 
     .menu-down {
         display: block;
+        left: 2rem;
+        width: unset;
     }
 
     .logo {
@@ -233,26 +235,22 @@ footer {
         padding: 50px;
         align-self: center;
     }
+
+    .left h1 {
+        font-size: 3rem;
+    }
     
     .left-es {
         padding: 60px;
-        /* padding: 50px; */
         align-self: center;
     }
 
-    .hero h1 {
-        font-size: 60px;
+    .left-es h1 {
+        font-size: 3rem;
     }
 
     .right .web {
         width: 400px;
         padding: 0px;
-    }
-}
-
-@media(max-width: 992px) {
-    .menu-down {
-        left: 2rem;
-        width: unset;
     }
 }
